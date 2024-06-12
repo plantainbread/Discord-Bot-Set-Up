@@ -1,7 +1,7 @@
 # DiscordBot
 My first project yay :D
 
-SET UP NOTE (sorry for yelling):
+SET UP NOTE (sorry for yelling):<br>
 This is for whoever wants to also create their own bot that can respond back using GPT 3.5.
 
 Download all the files and open them using an IDE.

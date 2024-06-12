@@ -1,5 +1,5 @@
 # DiscordBot
-My first project yay :DDDDDDDD
+My first project yay :D
 
 SET UP NOTE (sorry for yelling):
 This is for whoever wants to also create their own bot that can respond back using GPT 3.5.

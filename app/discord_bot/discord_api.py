@@ -10,7 +10,7 @@ discord_token = os.getenv("DISCORD_TOKEN_KEY")
 class MyClient(discord.Client):
 
     async def on_ready(self):
-        print("Sucessfully logged in as:", self.user)
+        print("Logged in as", self.user)
     
     async def on_message(self, message):
         print(message.content)

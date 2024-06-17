@@ -20,3 +20,5 @@ Don't forget to pip install dotenv, discord, and openai modules.
 Once everything is done, run the run.py file and if successful you will see the message 'logged in as (bot name)' in the terminal.
 
 Then, you may type questions in the Discord server for the bot to answer following the set command. E.g. /bot, /ask, /chat.
+
+Side note, if you update any of the files in botAi or discord_bot, make sure to run them before you run main.py.

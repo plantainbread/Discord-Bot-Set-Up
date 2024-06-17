@@ -14,6 +14,7 @@ def gpt_response(prompt):
                 "content": prompt,
             }
         ],
+        # You may change the model if you like to something else such as gpt-4o, you can see the options on the OpenAI API site.
         model="gpt-3.5-turbo",
     )
     return chat_completion.choices[0].message.content.strip()

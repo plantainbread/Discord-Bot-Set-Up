@@ -24,6 +24,7 @@ class MyClient(discord.Client):
                 user_message = message.content.replace(text, '')
                 print(command, user_message)
     # You have to change this if you wish to alter the commands, I probably could have done this more efficiently but it is what it is.
+        #You can create a separate list for the call commands and do a for loop to compare each element in the list to the command if you'd like.
         if command == '/bot' or command == '/ask' or command == '/chat':
             bot_response = gpt_response(prompt=user_message)
             await message.channel.send(f"Answer: {bot_response}")
